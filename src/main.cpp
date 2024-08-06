@@ -66,8 +66,6 @@ void loop() {
   else {
     Serial.println("HX711 not found, please contact support");
   }
-  
-  delay(10); // this speeds up the simulation
 }
 
 //FUNCTION TO GROW RAPIDLY THE VALUES FOR THE SCALE
